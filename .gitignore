@@ -1,0 +1,78 @@
+## Игнорирование файлов Visual Studio и результатов сборки
+
+# Результаты сборки
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.msi
+*.exe.config
+*.dll.config
+
+# Файлы настроек пользователя
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.settings/
+.vs/
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+*.cache
+*.pid
+*.seed
+
+# Файлы, создаваемые IDE
+.vscode/
+*.swp
+*.*~
+~*
+
+# NuGet
+packages/
+*.nupkg
+
+# Файлы базы данных
+*.mdf
+*.ldf
+
+# Файлы журналов
+logs/
+*.log
+
+# Файлы покрытия тестов
+*.coverage
+*.coverage.xml
+
+# Файлы развертывания
+publish/
+PublishScripts/
+
+# Файлы резервных копий
+*.bak
+*.backup
+
+# Файлы, специфичные для пользователя
+*.pfx
+*.p12
+*.snk
+
+# Файлы конфигурации с секретами
+appsettings.Development.json
+secrets.json
+
+# Директории пакетов
+node_modules/
+jspm_packages/
+
+# Файлы метаданных платформы
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
